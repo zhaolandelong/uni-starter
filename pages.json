@@ -1,5 +1,10 @@
 {
 	"pages": [{
+			"path": "pages/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
 			"path": "pages/list/list",
 			"style": {
 				// #ifndef APP-PLUS
@@ -245,6 +250,11 @@
 		"borderStyle": "black",
 		"backgroundColor": "#FFFFFF",
 		"list": [{
+			"text": "首页",
+			"pagePath": "pages/index",
+			"iconPath": "static/tabbar/list.png",
+			"selectedIconPath": "static/tabbar/list_active.png"
+		}, {
 			"pagePath": "pages/list/list",
 			"iconPath": "static/tabbar/list.png",
 			"selectedIconPath": "static/tabbar/list_active.png",
