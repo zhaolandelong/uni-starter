@@ -1,0 +1,45 @@
+{
+	"passwordSecret": [{
+		"type": "hmac-sha256",
+		"version": 1
+	}],
+	"passwordStrength": "medium",
+	"tokenSecret": "zhaolandelong",
+	"requestAuthSecret": "URL化请求鉴权签名密钥",
+	"tokenExpiresIn": 7200,
+	"tokenExpiresThreshold": 3600,
+	"maxTokenLength": 10,
+	"passwordErrorLimit": 6,
+	"passwordErrorRetryTime": 3600,
+	"autoSetInviteCode": false,
+	"forceInviteCode": false,
+	"idCardCertifyLimit": 1,
+	"realNameCertifyLimit": 5,
+	"sensitiveInfoEncryptSecret": "",
+	"frvNeedAlivePhoto": false,
+	"userRegisterDefaultRole": ["user"],
+	"mp-weixin": {
+		"tokenExpiresIn": 259200,
+		"tokenExpiresThreshold": 86400,
+		"oauth": {
+			"weixin": {
+				"appid": "wx74e2e6c9eb7f1d1d",
+				"appsecret": "27fd35b5b9e39943834b3e6d8bf549c0"
+			}
+		}
+	},
+	"web": {
+		"tokenExpiresIn": 7200,
+		"tokenExpiresThreshold": 3600,
+		"oauth": {
+			"weixin-h5": {
+				"appid": "wxfe5236dd72c8b05a",
+				"appsecret": "94ea1e1ae0b4347573fd90892896500f"
+			},
+			"weixin-web": {
+				"appid": "",
+				"appsecret": ""
+			}
+		}
+	}
+}
